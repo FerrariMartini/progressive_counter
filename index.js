@@ -7,7 +7,7 @@ console.log('>>>>>>>> timeOffSet', timeOffSet)
 
 
 function queuedDurationRealTime(queuedDateTime) {
-  let dateNow = 
+  let dateNow = Date.now() - timeOffSet
   console.log(">>>>>>>> dateNow", dateNow);
 
   const nowDateParse = dateNow; 
